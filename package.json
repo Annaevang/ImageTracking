@@ -1,0 +1,21 @@
+{
+  "homepage": "https://github.com/MerryChristmass/ImageTracking.git",
+  "name": "arjs_imagetracking_locationbasedar",
+  "version": "1.0.0",
+  "description": "AR.js with Image Tracking + Location Based AR",
+  "main": "server.js",
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mona",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
